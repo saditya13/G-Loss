@@ -25,7 +25,7 @@ python fine_tuning.py
     --gamma 0.7 
     --sigma 0.136
 ```
-
+---
 **Key arguments:**
 - `--dataset`: Dataset name (e.g., MR, 20ng, ohsumed, etc.)
 - `--bert_init`: Model name (e.g., bert-base-uncased, roberta-base)
@@ -40,4 +40,10 @@ python fine_tuning.py
 
 The set of hyperparameters for loss functions can be found in **hyperparamters.xlsx**
 
-
+---
+## Outputs
+- **Checkpoints, logs, and plots** are saved in `checkpoint/` directory.
+- **Training and evaluation logs:**  
+  `checkpoint/<run-folder>/training_finetuning_plotting.log`
+- **t-SNE and silhouette plots:**  
+  `checkpoint/<run-folder>/`
