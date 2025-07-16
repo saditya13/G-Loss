@@ -15,7 +15,7 @@ This script implements a full pipeline for fine-tuning transformer models (BERT,
 
 ### To fine-tune a language model (e.g., BERT-base-uncased) using G-Loss on any dataset (e.g., MR), use
 ```
-python new-codes/fine_tuning.py \
+python fine_tuning.py \
     --dataset MR \    
     --bert_init bert-base-uncased \
     --loss g-loss \
