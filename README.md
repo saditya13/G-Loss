@@ -21,9 +21,9 @@ python fine_tuning.py \
     --loss g-loss \
     --nb_epochs 80 \
     --batch_size 128 \
-    --bert_lr 2e-5 \
-    --gamma 0.3 \
-    --sigma 0.23
+    --bert_lr 1e-5 \
+    --gamma 0.7 \
+    --sigma 0.136
 ```
 
 **Key arguments:**
