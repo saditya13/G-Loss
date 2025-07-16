@@ -38,6 +38,7 @@ python fine_tuning.py \
 - `--optuna_results`: Path to Optuna best params JSON (optional)
 - `--use_latest_checkpoint`: Resume the latest checkpoint if available
 
+The set of hyperparameters for loss functions can be found in **hyperparamters.xlsx**
 ---
 ## Outputs
 
