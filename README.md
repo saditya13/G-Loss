@@ -39,13 +39,5 @@ python fine_tuning.py \
 - `--use_latest_checkpoint`: Resume the latest checkpoint if available
 
 The set of hyperparameters for loss functions can be found in **hyperparamters.xlsx**
----
-## Outputs
 
-- **Checkpoints, logs, and plots** are saved in `checkpoint/` directory.
-- **Training and evaluation logs:**  
-  `checkpoint/<run-folder>/training_finetuning_plotting.log`
-- **t-SNE and silhouette plots:**  
-  `checkpoint/<run-folder>/`
-- **Final classifier weights:**  
-  `checkpoint/<run-folder>/final_classifier.pth`
+
